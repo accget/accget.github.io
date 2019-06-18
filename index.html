@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Mezo</title>
+<link rel="shortcut icon" href="221.ico" type="image/x-icon">
+<link href="css/preloader.css" rel="stylesheet">
+<link href="css/highstl.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/Shacke.css" rel="stylesheet">
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/kill.js"></script>
+<style>
+@font-face{font-family:Pompadur;src:local(pompadur),url(fonts/font.ttf);}h1{font-family:Pompadur,'Comic Sans MS',cursive;}
+@font-face{font-family:Bazy;src:local(bazy),url(fonts/bazy.ttf);}
+body, a, a:link{cursor:url(images/cursor/cursor.cur), default;} a:hover {cursor:url(images/cursor/cursor2.cur),pointer;}
+</style>
+<div id="loader-wrapper"><div id="loader"></div>
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+</div>
+</head>
+<body onmousedown="return false" onselectstart="return false">
+<style>body{overflow:hidden}</style>
+<script>disableWheelScroll();</script>
+<div id="star" class="video mask overlay">
+<i class="volume-button fa fa-volume-up"></i>
+<i class="stop-button fa fa-pause"></i>
+<div class="video-fallback"></div>
+</video>
+<script>setTimeout(function(){document.getElementById("video").play();}, 3000);</script>
+<canvas class="cover"></canvas>
+</div>
+<div class="kill-feed"><div><span class="player t"></span><span class="weapons"><img height="20"/><img width="30" height="26" src="images/headshot.png"/></span><span class="player ct"></span></div></div>
+
+<audio autoplay="1" loop="-1" volume="0.5">
+	<source src="music.mp3" type="audio/mp3">
+</audio>
+
+<div class="pageoverlay">
+<div class="lightbox">
+<div class="awrapper">
+<div class="titles animated rubberBand" style="animation-delay: 6s;">
+<div class="animated zoomIn" style="animation-delay: 4s;">
+<h1><font color="#FFFFFF">M</font><font color="#FF1493">E</font><font color="#FFFFFF">ZO</font><font color="#FF1493"></font></h1>
+</div></div>
+<div class="media animated fadeInUpBig" style="animation-delay: 5s;">
+<a href="https://steamcommunity.com/profiles/76561198324560179" target="_blank">
+<i class="fa fa-steam hvr-grow" title="Steam"></i>
+</a>
+<a href="https://vk.com/id205308295" id="vk" title="Я Вконтакте!" target="_blank">
+<i class="fa fa-vk hvr-grow"></i>
+</a>
+<a href="https://t.me/mezo1337" id="vk" title="Telegram" target="_blank">
+<i class="fa fa-paper-plane hvr-grow"></i>
+</a>
+</div>
+</div>
+</div></div>
+<div class="pagebottom">
+<center>
+<marquee height="950" width="850"> <font color="#FFFFFF"><p class="marq">GLOBAL ELITE :* </p></font></marquee>
+</center>
+</div>
+<script>$(document).ready(function() {setTimeout(function(){$('body').addClass('loaded');$('h1').css('color','#222222');}, 2500);});</script>
+</body>
+
+</html>
